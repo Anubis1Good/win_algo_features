@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: #e2e9fd;
+    
+}
+.btn {
+    padding: .5em;
+    background-color: #449d44;
+    border: none;
+    color: #cff9ff;
+    border-radius: .2em;
+    margin: .3em;
+}
+.btn:active{
+    background-color: #295e29;
+}

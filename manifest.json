@@ -1,0 +1,18 @@
+{
+    "name": "win_algo_features",
+    "description": "an extension that helps fix some features of the Algorithmic platform",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "32":"icons/pig_32.png",
+        "48":"icons/pig_48.png",
+        "64":"icons/pig_64.png",
+        "128":"icons/pig_128.png"
+        
+    },
+    "action": {
+        "default_popup":"win.html"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "background":{}
+}
