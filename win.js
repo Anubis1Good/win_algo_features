@@ -12,9 +12,7 @@ function startScript(someFunc){
         )
     })
 }
-document.querySelector('.main__BO_btn').onclick = () => {
-    startScript(openLessons)
-}
+
 document.querySelector('.main__checkbox_btn').onclick = () => {
     startScript(forgiveCheckbox)
 }
@@ -23,16 +21,7 @@ document.querySelector('.main__openQuiz_btn').onclick = () => {
 }
 
 
-function openLessons(){
-    const btns = document.getElementsByClassName('btn-xs')
-    if (btns){
-        for (let btn of btns){
-            btn.disabled = false
-            
-        }
 
-    }
-}
 
 function forgiveCheckbox(){
     const check_btn = document.querySelector('.dHsxLw')
