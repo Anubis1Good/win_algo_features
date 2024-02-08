@@ -21,6 +21,11 @@ document.querySelector('.main__checkbox_btn').onclick = () => {
 document.querySelector('.main__openQuiz_btn').onclick = () => {
     startScript(openQuiz)
 }
+document.querySelector('.main__todoStudent_btn').onclick = () => {
+    startScript(todoStudent)
+}
+
+
 
 
 function openLessons(){
@@ -74,5 +79,7 @@ function openQuiz(){
     }
 }
 
-
+function todoStudent(){
+    
+}
 
